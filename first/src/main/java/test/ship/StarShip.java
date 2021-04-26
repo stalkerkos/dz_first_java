@@ -4,4 +4,9 @@ package test.ship;
 public class StarShip {
     /*высота*/
     public double shipHeight;
+
+    //добавить конструктор для корабля
+    public StarShip(double shipHeight){
+        this.shipHeight=shipHeight;
+    }
 }
