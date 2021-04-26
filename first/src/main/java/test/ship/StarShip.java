@@ -9,4 +9,9 @@ public class StarShip {
     public StarShip(double shipHeight){
         this.shipHeight=shipHeight;
     }
+
+    //возвращает высоту корабля
+    public double getShipHeight(){
+        return this.shipHeight;
+    }
 }
