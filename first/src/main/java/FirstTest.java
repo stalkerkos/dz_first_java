@@ -10,7 +10,8 @@ public class FirstTest {
 
 		System.out.println (8.0 / 3);
 
-		int side=7;
-		System.out.println ("Площадь квадрата со стороной "+side+ " = "+(side*side));
+		double side=7.45;
+		String text="Площадь квадрата со стороной ";
+		System.out.println (text+side+ " = "+(side*side));
 	}
 }
